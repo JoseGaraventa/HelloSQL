@@ -1,0 +1,6 @@
+SELECT *,
+CASE
+	WHEN age >=30 THEN " ES MAYOR DE TREINTA"
+    ELSE "ES MENOR DE 30"
+    END AS agetext
+    FROM users;

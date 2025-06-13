@@ -1,0 +1,2 @@
+SELECT name, init_date AS "Fecha de inicio" FROM users WHERE age between 20 AND 30;  -- as funciona como un alias en la visualisacion 
+SELECT concat(name,"  ", surname) AS "Nombre Completo" FROM users; 

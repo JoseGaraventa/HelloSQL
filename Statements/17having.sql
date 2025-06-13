@@ -1,0 +1,1 @@
+select count(4) FROM users HAVING COUNT(age) > 4;
