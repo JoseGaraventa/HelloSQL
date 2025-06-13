@@ -1,0 +1,1 @@
+SELECT *  FROM hello_mysql.users where email LIKE "%gmail.com";
