@@ -35,3 +35,19 @@ INSERT INTO dni ( dni_number, user_id) VALUES (1111112, 2);
 
 
 INSERT INTO dni ( dni_number, user_id) VALUES (1111113, 3);
+
+-- le ponemos contenido a la tabla de companys
+INSERT INTO  companies (name) VALUES (
+"RUXXOS");
+
+INSERT INTO  companies (name) VALUES (
+"APPLE");
+INSERT INTO  companies (name) VALUES (
+"GUCCI");
+
+-- le asignmos companias a los usuarios
+UPDATE users SET company_id=1 WHERE user_id=1;
+UPDATE users SET company_id=2 WHERE user_id=3;
+UPDATE users SET company_id=3 WHERE user_id=4;
+UPDATE users SET company_id=1 WHERE user_id=7;
+
