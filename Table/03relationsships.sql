@@ -51,3 +51,23 @@ UPDATE users SET company_id=2 WHERE user_id=3;
 UPDATE users SET company_id=3 WHERE user_id=4;
 UPDATE users SET company_id=1 WHERE user_id=7;
 
+-- PONEMOS CONTENIDO A LA TABALA LENGUAGES
+INSERT INTO  languages (name) VALUES (
+"Swift");
+INSERT INTO  languages (name) VALUES (
+"Kotlin");
+INSERT INTO  languages (name) VALUES (
+"JavasScript");
+INSERT INTO  languages (name) VALUES (
+"Java");
+INSERT INTO  languages (name) VALUES (
+"Python");
+INSERT INTO  languages (name) VALUES (
+"C#");
+INSERT INTO  languages (name) VALUES (
+"Cobol");
+
+
+-- incorporamos datos en la tabla puente 
+INSERT INTO  users_languages (user_id, language_id) VALUES (
+1, 1);
